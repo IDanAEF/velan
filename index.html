@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./data.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" href="./custom.css">
+    <title>ОАО “ВЭЛАН”</title>
+</head>
+<body>
+    <header class="header text_fz18 text_white">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./assets/images/svg/logo.svg" alt="Вэлан">
+            </a>
+            <nav class="header__nav body-click-content" data-content="header-nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="./index.html">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./production.html">Наша продукция</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./portfolio.html">Портфолио проектов</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./service.html">Сервис</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__hamburger body-click-target" data-content="header-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__promo">
+            <div class="container">
+                <div class="main__promo-descr text_fz22 text_center text_gray">
+                    Завод <h1 class="text_fz22 text_inline text_fw400">ОАО&nbsp;“ВЭЛАН”</h1> - российский производитель взрывозащищенного и&nbsp;общепромышленного электрооборудования, который&nbsp;так&nbsp;же&nbsp;осуществляет весь спектр работ генерального проектировщика и&nbsp;генерального подрядчика по&nbsp;промышленным обьектам. Мы&nbsp;реализуем проекты “под&nbsp;ключ”: от&nbsp;проектирования до&nbsp;монтажа.
+                </div>
+                <div class="main__promo-cat">
+                    <a href="./catalog.html" class="button text_fz22 text_fw700 text_white">
+                        Каталог
+                    </a>
+                    <a href="" class="button text_fz22 text_fw700 text_white">
+                        Новинки
+                    </a>
+                    <form action="./catalog.html" method="get" class="main__promo-search text_fz18">
+                        <div class="main__promo-search-field">
+                            <input type="text" name="search-string" placeholder="Поиск по наименованию">
+                            <button>
+                                <img src="./assets/images/svg/loop.svg" alt="Поиск">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="main__promo-links text_fz22 text_fw700 text_blue" data-out-cats="3">
+                    <!-- <a href="" class="main__promo-links-item">
+                        <div class="box">
+                            <h4>Осветительное оборудование</h4>
+                            <img src="./assets/images/cat1.png" alt="Осветительное оборудование">
+                        </div>
+                    </a>
+                    <a href="" class="main__promo-links-item">
+                        <div class="box">
+                            <h4>Шкафы управления и сигнализации, щитовое оборудование</h4>
+                            <img src="./assets/images/cat2.png" alt="Шкафы управления и сигнализации, щитовое оборудование">
+                        </div>
+                    </a>
+                    <a href="" class="main__promo-links-item">
+                        <div class="box">
+                            <h4>Ящики, коробки зажимов соединительные и разветвительные</h4>
+                            <img src="./assets/images/cat3.png" alt="Ящики, коробки зажимов соединительные и разветвительные">
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </section>
+        <section class="main__about text_white">
+            <div class="container">
+                <div class="main__about-left text_fz32">
+                    <img src="./assets/images/about_left.jpg" alt="О компании" class="img_bg">
+                    <a href="./assets/files/catalog.pdf" target="_blank" class="button button_big">Скачать каталог</a>
+                    <a href="" target="_blank" class="button button_big">Скачать буклет</a>
+                </div>
+                <div class="main__about-right">
+                    <img src="./assets/images/about_right.jpg" alt="О компании" class="img_bg">
+                    <h2 class="main__about-title text_fz36 text_fw700">О компании</h2>
+                    <div class="main__about-descr text_fz20">
+                        Ассортимент компании “ВЭЛАН” насчитывает 16 групп оборудования во взрывозащищенном и общепромышленном исполнении. Продукция ВЭЛАН сертифицирована в соответствии с требованиями ГОСТ, ATEX, IECEx. <br><br>Все виды оборудования могут поставляться по желанию заказчика в различных модификациях, в зависимости от материала корпуса, размера, уровня взрывозащиты и климатического исполнения.
+                    </div>
+                    <div class="main__about-items">
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about1.svg" alt="ПРОИЗВОДСТВО" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    ПРОИЗВОДСТВО
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    Производство взрывозащищенного и общеприомышленного электрооборудования согласно требованиям заказчика и международным стандартам.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about2.svg" alt="ИНЖИНИРИНГ -" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    ИНЖИНИРИНГ -
+                                    <span>проекты «под ключ»:</span>
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    <ul>
+                                        <li>
+                                            проектирование с госэкспертизой
+                                        </li>
+                                        <li>производство</li>
+                                        <li>монтаж</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about3.svg" alt="БОЛЬШОЙ ОПЫТ" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    БОЛЬШОЙ ОПЫТ
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    Завод ВЭЛАН - это российский производитель взрывозащищенного и общепромышленного электрооборудования с высокотехнологичным производством, имеющий многолетний опыт работы и инновационных решений в России и за рубежом.    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about4.svg" alt="КАЧЕСТВО ПРОДУКЦИИ" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    КАЧЕСТВО ПРОДУКЦИИ
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    Продукция завода ВЭЛАН соответствует требованиям технических регламентов стран ЕС и СНГ. Наличие международных сертификатов позволяет использовать нашу продукцию на большинстве объектов по всему миру.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about5.svg" alt="ШИРОКИЙ МОДЕЛЬНЫЙ РЯД" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    ШИРОКИЙ МОДЕЛЬНЫЙ РЯД
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    Ассортимент продукции завода ВЭЛАН насчитывает 16 типов оборудования в общепромышленном и взрывозащищенном исполнении. Все виды оборудования могут поставляться по желанию заказчика в различных модификациях, в зависимости от материала корпуса, размера, уровня взрывозащиты и климатического исполнения.    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__about-item">
+                            <img src="./assets/images/svg/about6.svg" alt="ПРОФЕССИОНАЛИЗМ" class="main__about-item-image">
+                            <div class="main__about-item-text">
+                                <h3 class="main__about-item-title text_fz22 text_fw700 text_upper">
+                                    ПРОФЕССИОНАЛИЗМ
+                                </h3>
+                                <div class="main__about-item-descr text_fz18">
+                                    Команда профессионалов поможет подобрать оборудование, которое будет отвечать всем техническим требованиям, окажет квалифицированную информационно-техническую поддержку.    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__map">
+            <div class="container">
+                <img class="main__map-image" src="./assets/images/map.jpg" alt="МЫ ЗДЕСЬ">
+                <div class="main__map-text">
+                    <h2 class="main__map-title text_fz36 text_fw700 text_blue text_upper">МЫ ЗДЕСЬ</h2>
+                    <div class="main__map-undertitle text_fz20 text_gray">
+                        Вы всегда можете связаться с нами:
+                    </div>
+                    <h3 class="text_fz22 text_fw400 text_blue text_upper">ОАО «ВЭЛАН»</h3>
+                    <div class="main__map-list text_fz20">
+                        <div class="main__map-list-item">
+                            <img src="./assets/images/svg/map_blue.svg" alt="">
+                            <div class="content text_gray">
+                                г. Зеленокумск,<br> 
+                                ул. Вэлановская, 1
+                            </div>
+                        </div>
+                        <div class="main__map-list-item">
+                            <img src="./assets/images/svg/phone_blue.svg" alt="">
+                            <div class="content text_gray">
+                                <a href="tel:+78633203138">+7(863) 320-31-38</a><br> 
+                                <a href="tel:+74994553702">+8(499) 455-37-02</a>
+                            </div>
+                        </div>
+                        <div class="main__map-list-item">
+                            <img src="./assets/images/svg/social_blue.svg" alt="">
+                            <div class="content text_gray">                          
+                                <a href="mailto:velan@velan.ru">velan@velan.ru</a><br> 
+                                <a href="mailto:sales@velan.ru">sales@velan.ru</a><br> 
+                                <a href="mailto:velan.ru">velan.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text_fz20 text_white">
+        <div class="container">
+            <div class="footer__col">
+                <img src="./assets/images/svg/map.svg" alt="Адрес">
+                <div class="footer__text">
+                    Россия, г. Зеленокумск, ул. Вэлановская, 1
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/phone.svg" alt="Телефон">
+                <div class="footer__text">
+                    тел:
+                    <span>
+                        <a href="tel:+78633203138">+7(863) 320-31-38</a>
+                        <a href="tel:+74994553702">+7(499) 455-37-02</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/social.svg" alt="Почта">
+                <div class="footer__text">
+                    e-mail:
+                    <span>
+                        <a href="mailto:velan@velan.ru">velan@velan.ru</a>
+                        <a href="mailto:sales@velan.ru">sales@velan.ru</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./custom.js"></script>
+</body>
+</html>

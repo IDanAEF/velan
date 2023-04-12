@@ -1,0 +1,35 @@
+.service 
+    padding: 97px 0px 120px
+    &__undertitle
+        margin: 25px 0px 70px
+    &__list 
+        &-block 
+            position: relative
+            overflow: hidden
+            border-radius: 10px
+            padding: 85px 40px
+            z-index: 1
+            &-plate 
+                position: absolute
+                top: 0
+                left: 0
+                width: 785px
+                object-fit: cover
+            ul 
+                position: relative
+                padding-left: 32px
+                list-style-type: none
+                li 
+                    position: relative
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 4px
+                        height: 4px
+                        border-radius: 100%
+                        background: #FF952B
+                        right: calc(100% + 15px)
+                        top: 12px
+                    margin-bottom: 25px
+                    &:last-child
+                        margin-bottom: 0 !important

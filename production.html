@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./data.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" href="./custom.css">
+    <title>ОАО “ВЭЛАН” - Продукция</title>
+</head>
+<body>
+    <header class="header text_fz18 text_white">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./assets/images/svg/logo.svg" alt="Вэлан">
+            </a>
+            <nav class="header__nav body-click-content" data-content="header-nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="./index.html">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./production.html">Наша продукция</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./portfolio.html">Портфолио проектов</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./service.html">Сервис</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__hamburger body-click-target" data-content="header-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="main production">
+        <h1 class="production__title text_fz36 text_fw700 text_blue text_center">Продуктовый портфель компании ВЭЛАН</h1>
+        <section class="production__items">
+            <div class="container" data-out-cats="0" data-temp="production">
+                <!-- <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod13.png" alt="Осветительное оборудование" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Осветительное оборудование</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(светильники, прожекторы - светодиодные, ламповые; <br>взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod10.png" alt="Шкафы управления и сигнализации" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Шкафы управления и сигнализации</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(4 вида оболочек из различных  материалов, 32 габарита, <br>свободная комплектация; взрывозащищенные, <br>общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod17.png" alt="Щитки освещения" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Щитки освещения</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(модульная конструкция, цветовая индикация, <br>возможность комплектации вилками и розетками; <br>взрывозащищенные, общепромушленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod6.png" alt="Модули коммутации" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Модули коммутации</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(модульная комплектация, количество циклов <br>срабатывания до 10 000; взрывозащищенные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod14.png" alt="Коробки зажимов соединительные, разветвительные " class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Коробки зажимов соединительные, разветвительные </a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(свободная комплектация, высоковольтные/низковольтные, <br>различные материалы исполнения для подключения кабелей <br>круглого и плоского сечения; взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod15.png" alt="Пакетные переключатели" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Пакетные переключатели</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(реализация любой схемы комплектации, корпус <br>алюминий/пластик, номинальный ток до 63А; <br>взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod7.png" alt="Посты управления кнопочные" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Посты управления кнопочные</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(кнопки с фиксацией и без, пьезокнопки, кнопки с индикацией, <br>индикаторы различных цветов, комплектация необходимыми <br>измерительными приборами; взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod16.png" alt="Посты сигнализации" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Посты сигнализации</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(световые, звуковые, свето-звуковые, различные цвета, <br>4 типа креплений; взрывозащищенные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod18.png" alt="Табло информационное" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Табло информационное</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(световые, свето-звуковые, со статичной надписью или <br>динамически-меняющиеся, различные крепления, комплектация <br>аккумулятором, возможность программирования надписей; взрывозащищенные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod8.png" alt="Светофоры" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Светофоры</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(светодиодный источник света, 5 вариантов свечения модулей, <br>возможность комплектации козырьком, напряжение питания 12-220В, <br>1 и 2 группа электрооборудования, взрывозащищенные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod19.png" alt="Пускатели и устройства управления" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Пускатели и устройства управления</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(возможность местного и дистанционного управления, различные виды защиты, <br>наличие световой сигнализации, возможность реверсивного исполнения, <br>номинальный ток до 250А, номинальное напряжение до 1 140В; взрывозащищеные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod1.png" alt="Выключатели" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Выключатели</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(клавишные, путевые, концевые, различные материалы изготовления корпуса, <br>различные типы приводов; взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod2.png" alt="Соединители" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Соединители</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(номинальный ток от 16 до 400А, возможность встраивания в различные оболочки, <br>комплектация автоматическим выключателем и переключателем; <br>взрывозащищенные, общепромышленные) </div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod9.png" alt="Кабельные вводы" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Кабельные вводы</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(для бронированного/небронированного кабеля, трубной проводки, <br>различные материалы изготовления, диапозон кабелей от 5 до 112 мм, врезные и накладные, <br>внутренняя и наружная резьба различных типов; взрывозащищенные, общепромышленные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod4.png" alt="Оболочки, фитинги" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Оболочки, фитинги</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(различные материалы изготовления, множество <br>габаритов для любой зоны взрывозащиты, возможность комплектации смотровым окном; <br>взрывозащищенные)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod3.png" alt="Ex - компоненты" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Ex - компоненты</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(контрольно-измерительные приборы, индикаторы, блоки контактные, <br>элементы кнопочные, микропереключатели) </div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod11.png" alt="Комплексные решения" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Комплексные решения</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(комплексные решения могут комплектоваться по требованию <br>заказчика различными видами и типоразмерами любых <br>изделий компании)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod5.png" alt="Датчики" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">Датчики</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(датчики освещённости, микроволновый датчик и <br>магнитный выключатель)</div>
+                    </div>
+                </article>
+                <article class="production__item">
+                    <a href="" class="production__item-link">
+                        <img src="./assets/images/production/prod12.png" alt="КРУВ" class="production__item-image">
+                    </a>
+                    <div class="production__item-text">
+                        <h3 class="production__item-title text_fz22 text_fw700 text_blue">
+                            <a href="">КРУВ</a>
+                        </h3>
+                        <div class="production__item-descr text_fz20 text_gray">(комплектно-распределительные взрывозащищенные <br>устройства)</div>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer text_fz20 text_white">
+        <div class="container">
+            <div class="footer__col">
+                <img src="./assets/images/svg/map.svg" alt="Адрес">
+                <div class="footer__text">
+                    Россия, г. Зеленокумск, ул. Вэлановская, 1
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/phone.svg" alt="Телефон">
+                <div class="footer__text">
+                    тел:
+                    <span>
+                        <a href="tel:+78633203138">+7(863) 320-31-38</a>
+                        <a href="tel:+74994553702">+7(499) 455-37-02</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/social.svg" alt="Почта">
+                <div class="footer__text">
+                    e-mail:
+                    <span>
+                        <a href="mailto:velan@velan.ru">velan@velan.ru</a>
+                        <a href="mailto:sales@velan.ru">sales@velan.ru</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./custom.js"></script>
+</body>
+</html>

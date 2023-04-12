@@ -3,12 +3,18 @@
     margin: 0
     padding: 0
 body
-    font-family: sans-serif
-    color: #000
+    font-family: 'Circe', sans-serif
+    color: #292929
     min-height: 100vh
 a 
     color: inherit
     text-decoration: none
+h1 
+    margin: 0
+button 
+    background: none
+    border: none
+    cursor: pointer
 html, body 
     &.fixed
         overflow: hidden
@@ -24,10 +30,9 @@ img
     height: auto
     object-fit: contain
 .container
+    width: 1400px
     position: relative
     margin: 0 auto
-.wpcf7-not-valid-tip, .wpcf7-response-output
-    display: none
 .img
     &_bg
         position: absolute
@@ -44,11 +49,51 @@ img
         font-style: italic
     &_center
         text-align: center
+    &_inline 
+        display: inline
     &_black
-        color: #000
+        color: #292929
+    &_blue
+        color: #00446B
+    &_gray
+        color: #5B5B5B
     &_white
-         color: #fff
+        color: #fff
     &_underline
         text-decoration: underline
     &_upper 
         text-transform: uppercase
+    &_fw
+        &400 
+            font-weight: 400
+        &700
+            font-weight: 700
+    &_fz
+        &16 
+            font-size: 16px
+            line-height: 28px
+        &18 
+            font-size: 18px
+            line-height: 118%
+        &20 
+            font-size: 20px
+            line-height: 128%
+        &22 
+            font-size: 22px
+            line-height: 128%
+        &32
+            font-size: 32px
+            line-height: 100%
+        &36 
+            font-size: 36px
+            line-height: 128%
+.button
+    background: linear-gradient(206.23deg, #00446B -5.18%, #001831 100.37%, #FF6B00 143.14%);
+    border-radius: 5px
+    padding: 10px 60px
+    width: fit-content
+    text-align: center
+    &_big 
+        padding: 26px 0px
+        width: 100%
+        border-radius: 0px

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" href="./custom.css">
+    <script src="./data.js"></script>
+    <title>ОАО “ВЭЛАН”</title>
+</head>
+<body>
+    <header class="header text_fz18 text_white">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./assets/images/svg/logo.svg" alt="Вэлан">
+            </a>
+            <nav class="header__nav body-click-content" data-content="header-nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="./index.html">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./production.html">Наша продукция</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./portfolio.html">Портфолио проектов</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./service.html">Сервис</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__hamburger body-click-target" data-content="header-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="main catalog">
+        <section class="main__promo">
+            <div class="container catalog__place">
+                <div class="main__promo-cat">
+                    <a href="./catalog.html" class="button text_fz22 text_fw700 text_white">
+                        Каталог
+                    </a>
+                    <a href="" class="button text_fz22 text_fw700 text_white">
+                        Новинки
+                    </a>
+                    <form action="" method="get" class="main__promo-search text_fz18">
+                        <div class="main__promo-search-field">
+                            <input type="text" name="search-string" placeholder="Поиск по наименованию">
+                            <button>
+                                <img src="./assets/images/svg/loop.svg" alt="Поиск">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="catalog__breadcrumbs text_fz16">
+                    <a href="./index.html">Главная</a><img src="./assets/images/svg/burg_arrow.svg" alt=""><span>Каталог</span>
+                </div>
+                <div class="main__promo-links text_fz22 text_fw700 text_blue" data-out-cats="0">
+                    
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer text_fz20 text_white">
+        <div class="container">
+            <div class="footer__col">
+                <img src="./assets/images/svg/map.svg" alt="Адрес">
+                <div class="footer__text">
+                    Россия, г. Зеленокумск, ул. Вэлановская, 1
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/phone.svg" alt="Телефон">
+                <div class="footer__text">
+                    тел:
+                    <span>
+                        <a href="tel:+78633203138">+7(863) 320-31-38</a>
+                        <a href="tel:+74994553702">+7(499) 455-37-02</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__col">
+                <img src="./assets/images/svg/social.svg" alt="Почта">
+                <div class="footer__text">
+                    e-mail:
+                    <span>
+                        <a href="mailto:velan@velan.ru">velan@velan.ru</a>
+                        <a href="mailto:sales@velan.ru">sales@velan.ru</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./custom.js"></script>
+</body>
+</html>

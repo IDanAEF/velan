@@ -1,0 +1,42 @@
+.header
+    padding: 17px 0px
+    background: linear-gradient(91.77deg, #00609B -6.68%, #010F1A 58.71%, #C25200 132.33%, #FF6B00 162.7%)
+    .container  
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__nav
+        padding-right: 175px
+        &-list 
+            list-style-type: none
+            display: flex
+            align-items: center 
+            gap: 96px
+    &__logo 
+        img 
+            width: 240px
+    &__hamburger
+        display: none
+        flex-direction: column
+        justify-content: space-between
+        width: 32px
+        height: 21px
+        position: relative
+        cursor: pointer
+        span 
+            pointer-events: none
+            width: 100%
+            height: 2px
+            background: #fff
+            transition: 0.5s transform
+        &.active
+            justify-content: center
+            align-items: center
+            span 
+                position: absolute
+                &:nth-child(2)
+                    opacity: 0
+                &:first-child
+                    transform: rotate(45deg)
+                &:last-child
+                    transform: rotate(-45deg)
