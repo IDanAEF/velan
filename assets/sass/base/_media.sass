@@ -8,6 +8,11 @@
         &__item 
             h2 
                 max-width: 50%
+    .catalog
+        &__item 
+            &-row 
+                grid-template: auto / 145px 288px 292px 150px 1fr
+                gap: 10px 
     .main
         &__promo
             &-cat 
@@ -82,6 +87,14 @@
                         margin-bottom: 15px
                         &::before
                            top: 8px 
+    .catalog
+        &__item 
+            &-row 
+                grid-template: auto/102px 244px 275px 150px 1fr
+                padding-bottom: 19px
+        &__td 
+            img 
+                max-height: 110px
     .production
         &__item 
             padding-bottom: 20px
@@ -178,6 +191,15 @@
             h2 
                 text-align: center 
                 max-width: 100%
+    .catalog
+        &__items 
+            overflow: auto
+        &__td 
+            img 
+                max-height: 90px
+        &__item 
+            &-row 
+                grid-template: auto / 100px 222px 231px 130px 180px
     .main
         &__promo
             &-links 
@@ -242,6 +264,10 @@
                 line-height: 25px
             &32 
                 font-size: 17px
+    .catalog
+        &__item 
+            &-row 
+                grid-template: auto / 88px 188px 202px 107px 137px
     .header
         position: fixed
         width: 100%
@@ -346,6 +372,10 @@
                 max-width: 147px
             h2 
                 font-size: 17px
+    .catalog
+        &__item 
+            &-row 
+                grid-template: auto / 88px 142px 170px 60px 117px
     .main
         padding: 90px 0px 40px
         &__promo 

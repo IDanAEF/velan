@@ -42,12 +42,6 @@
             ...
         }
     };
-
-    Ссылки на категории и продукты формируются путём передачи параметров к ссылке /catalog.html:
-    ?category=id - категория
-    ?product=id - продукт
-
-    Можно их соединять: ?category=id&product=id
 */
 
 var cats = {
@@ -203,9 +197,9 @@ var cats = {
 var prods = {
     1: {
         "title": 'Светильник ВЭЛАН 11',
-        "category": 3,
-        "new": 0,
-        "image": '',
+        "category": 20,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
         "docs": '',
         "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
@@ -213,9 +207,9 @@ var prods = {
     },
     2: {
         "title": 'Светильник ВЭЛАН 21',
-        "category": 3,
-        "new": 0,
-        "image": '',
+        "category": 20,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
         "docs": '',
         "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
@@ -223,9 +217,9 @@ var prods = {
     },
     3: {
         "title": 'Светильник ВЭЛАН 22',
-        "category": 3,
+        "category": 20,
         "new": 0,
-        "image": '',
+        "image": './assets/images/production/prod20.png',
         "docs": '',
         "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
@@ -233,9 +227,9 @@ var prods = {
     },
     4: {
         "title": 'Светильник ВЭЛАН 22',
-        "category": 3,
+        "category": 20,
         "new": 0,
-        "image": '',
+        "image": './assets/images/production/prod2.png',
         "docs": '',
         "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
@@ -243,29 +237,169 @@ var prods = {
     },
     5: {
         "title": 'Светильник ВЭЛАН 22',
-        "category": 3,
+        "category": 20,
         "new": 0,
-        "image": '',
+        "image": './assets/images/production/prod14.png',
         "docs": '',
-        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "protection": '1Ех е II Т6(Т5/T4/T3) Gb, \nРП Ex e I Mc,\n0Ex ia IIA Т6(Т5/T4/T3) Ga X, \n0Ex ia IIB Т6(Т5/T4/T3) Ga X,\n0Ex ia IIC Т6(Т5/T4/T3) Ga X, \n1Ex ib IIA Т6(Т5/T4/T3) Gb X,\n1Ex ib IIB Т6(Т5/T4/T3) Gb X, \n1Ex ib IIC Т6(Т5/T4/T3) Gb X,\n2Ex ic IIA Т6(Т5/T4/T3) Gc X, \n2Ex ic IIB Т6(Т5/T4/T3) Gc X,\n2Ex ic IIC Т6(Т5/T4/T3) Gc X, \nРО Ex ia I Ma X,\nEx tb IIIC T85°C(T100°C/T135°C/\nT200°C) Db',
         "ip": 'IP65/66/67',
         "dop": '>110Лм/Вт'
     },
     6: {
         "title": 'Светильник ВЭЛАН 22',
-        "category": 3,
+        "category": 20,
         "new": 0,
-        "image": '',
+        "image": './assets/images/production/prod17.png',
         "docs": '',
         "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
         "dop": '>110Лм/Вт'
     },
     7: {
-        "title": 'Светильник ВЭЛАН 22',
-        "category": 3,
+        "title": 'Светильник ВЭЛАН 28',
+        "category": 20,
+        "new": 1,
+        "image": './assets/images/production/prod19.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    8: {
+        "title": 'Щиток ВЭЛАН 11',
+        "category": 17,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>120Лм/Вт'
+    },
+    9: {
+        "title": 'Щиток ВЭЛАН 21',
+        "category": 17,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": ''
+    },
+    10: {
+        "title": 'Щиток ВЭЛАН 22',
+        "category": 17,
         "new": 0,
-        "image": '',
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    11: {
+        "title": 'Щиток ВЭЛАН 22',
+        "category": 17,
+        "new": 0,
+        "image": './assets/images/production/prod2.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    12: {
+        "title": 'Щиток ВЭЛАН 22',
+        "category": 17,
+        "new": 0,
+        "image": './assets/images/production/prod14.png',
+        "docs": '',
+        "protection": '1Ех е II Т6(Т5/T4/T3) Gb, \nРП Ex e I Mc,\n0Ex ia IIA Т6(Т5/T4/T3) Ga X, \n0Ex ia IIB Т6(Т5/T4/T3) Ga X,\n0Ex ia IIC Т6(Т5/T4/T3) Ga X, \n1Ex ib IIA Т6(Т5/T4/T3) Gb X,\n1Ex ib IIB Т6(Т5/T4/T3) Gb X, \n1Ex ib IIC Т6(Т5/T4/T3) Gb X,\n2Ex ic IIA Т6(Т5/T4/T3) Gc X, \n2Ex ic IIB Т6(Т5/T4/T3) Gc X,\n2Ex ic IIC Т6(Т5/T4/T3) Gc X, \nРО Ex ia I Ma X,\nEx tb IIIC T85°C(T100°C/T135°C/\nT200°C) Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    13: {
+        "title": 'Щиток ВЭЛАН 22',
+        "category": 17,
+        "new": 0,
+        "image": './assets/images/production/prod17.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    14: {
+        "title": 'Щиток ВЭЛАН 28',
+        "category": 17,
+        "new": 1,
+        "image": './assets/images/production/prod19.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    15: {
+        "title": 'Шкаф ВЭЛАН 11',
+        "category": 18,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>120Лм/Вт'
+    },
+    16: {
+        "title": 'Шкаф ВЭЛАН 21',
+        "category": 18,
+        "new": 1,
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1Ex d IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": ''
+    },
+    17: {
+        "title": 'Шкаф ВЭЛАН 22',
+        "category": 18,
+        "new": 0,
+        "image": './assets/images/production/prod20.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    18: {
+        "title": 'Шкаф ВЭЛАН 22',
+        "category": 18,
+        "new": 0,
+        "image": './assets/images/production/prod2.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    19: {
+        "title": 'Шкаф ВЭЛАН 22',
+        "category": 18,
+        "new": 0,
+        "image": './assets/images/production/prod14.png',
+        "docs": '',
+        "protection": '1Ех е II Т6(Т5/T4/T3) Gb, \nРП Ex e I Mc,\n0Ex ia IIA Т6(Т5/T4/T3) Ga X, \n0Ex ia IIB Т6(Т5/T4/T3) Ga X,\n0Ex ia IIC Т6(Т5/T4/T3) Ga X, \n1Ex ib IIA Т6(Т5/T4/T3) Gb X,\n1Ex ib IIB Т6(Т5/T4/T3) Gb X, \n1Ex ib IIC Т6(Т5/T4/T3) Gb X,\n2Ex ic IIA Т6(Т5/T4/T3) Gc X, \n2Ex ic IIB Т6(Т5/T4/T3) Gc X,\n2Ex ic IIC Т6(Т5/T4/T3) Gc X, \nРО Ex ia I Ma X,\nEx tb IIIC T85°C(T100°C/T135°C/\nT200°C) Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    20: {
+        "title": 'Шкаф ВЭЛАН 22',
+        "category": 18,
+        "new": 0,
+        "image": './assets/images/production/prod17.png',
+        "docs": '',
+        "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
+        "ip": 'IP65/66/67',
+        "dop": '>110Лм/Вт'
+    },
+    21: {
+        "title": 'Шкаф ВЭЛАН 28',
+        "category": 18,
+        "new": 1,
+        "image": './assets/images/production/prod19.png',
         "docs": '',
         "protection": '1 Ex d e IIC T6(T5,T4,T3) Gb, \nEx tb IIIC T80°C...T195°C Db',
         "ip": 'IP65/66/67',
